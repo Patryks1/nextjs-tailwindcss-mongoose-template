@@ -1,32 +1,28 @@
-import React from "react";
-import styles from "../styles/Home.module.css";
-import dbConnect from "../util/mongodb";
+import { GetServerSideProps, NextPage } from 'next';
+import React from 'react';
+import dbConnect from '../util/mongodb';
 
-type Props = {
+interface Props {
   serverMessage: string;
-};
+}
 
-type ServerSideProps = {
-  props: Props;
-};
-
-const Home = ({serverMessage}): JSX.Element => {
+const Home: NextPage<Props> = ({ serverMessage }): JSX.Element => {
   return (
-    <div className={styles.container}>
-      <main className={styles.main}>
+    <React.Fragment>
+      <main className="containers">
         <h1>{serverMessage}</h1>
       </main>
-    </div>
+    </React.Fragment>
   );
 };
 
-export const getServerSideProps = async (context): Promise<ServerSideProps> => {
+export const getServerSideProps: GetServerSideProps = async () => {
   await dbConnect();
 
   return {
     props: {
-      serverMessage: "Wow, such Empty"
-    },
+      serverMessage: 'Dynamic Server Message'
+    }
   };
 };
 
