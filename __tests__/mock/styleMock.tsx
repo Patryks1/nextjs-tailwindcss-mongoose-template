@@ -4,4 +4,4 @@ module.exports = {
   }
 };
 
-export { };
+export {};
