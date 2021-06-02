@@ -7,7 +7,7 @@ interface IProps {
   children: React.ReactNode;
 }
 
-const Layout = (props: IProps) => {
+const Layout = (props: IProps): JSX.Element => {
   const { children } = props;
 
   return (

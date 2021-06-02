@@ -6,7 +6,7 @@ interface IProps {
   navButtons: INavButton[];
 }
 
-const NavBar = (props: IProps) => {
+const NavBar = (props: IProps): JSX.Element => {
   const { navButtons } = props;
 
   return (

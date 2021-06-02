@@ -6,7 +6,7 @@ interface IProps {
   label: string;
 }
 
-const NavButton = (props: IProps) => {
+const NavButton = (props: IProps): JSX.Element => {
   const { path, label } = props;
   const router = useRouter();
 
