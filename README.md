@@ -14,5 +14,6 @@ Next.js & Tailwind css skeleton starter template. Next.js is a React front-end d
 - **React Testing Library** - Simple and complete React DOM testing utilities that encourage good testing practices.
 - **Tailwind CSS** - A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
 - **Heroku Support** - Deploy on Vercel and Heroku.
+- **Docker Support** - Deploy to docker as a container.
 - **Bundle analyser** - Visualize the size of webpack output files with an interactive zoomable treemap.
 
