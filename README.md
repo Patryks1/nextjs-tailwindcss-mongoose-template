@@ -1,10 +1,13 @@
 # Next.js Starter Template
-Small ready to go Next.js template perfect for starting a new web project. 
+
+Small ready to go Next.js template perfect for starting a new web project.
 
 # About
-Next.js & Tailwind css skeleton starter template. Next.js is a React front-end development web framework that enables functionality such as server-side rendering and generating static websites for React-based web applications. Tailwind CSS is a utility-first CSS framework, allowing for speedy component development. Mongoose is a simple MongoDB tool designed for asynchronous environment. 
 
-# Features 
+Next.js & Tailwind css skeleton starter template. Next.js is a React front-end development web framework that enables functionality such as server-side rendering and generating static websites for React-based web applications. Tailwind CSS is a utility-first CSS framework, allowing for speedy component development. Mongoose is a simple MongoDB tool designed for asynchronous environment.
+
+# Features
+
 - **Next.js** - Minimal framework for server-rendered React applications.
 - **Typescript** - Superset of JavaScript which primarily provides optional static typing, classes and interfaces.
 - **ESLint** - The pluggable linting utility with prettier.
@@ -15,4 +18,3 @@ Next.js & Tailwind css skeleton starter template. Next.js is a React front-end d
 - **Tailwind CSS** - A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
 - **Heroku Support** - Deploy on Vercel and Heroku.
 - **Bundle analyser** - Visualize the size of webpack output files with an interactive zoomable treemap.
-
