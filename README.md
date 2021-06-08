@@ -23,7 +23,7 @@ Next.js & Tailwind css skeleton starter template. Next.js is a React front-end d
 
 
 # Updates - 
-* 08/06/2021
+08/06/2021
 - Preact - Will reduce the overall bundle size significantly while still supporting all of the react features
 
 **Without preact**
